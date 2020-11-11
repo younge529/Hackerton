@@ -17,7 +17,8 @@ tqdm==4.51.0
 ## Inference
 put your image in dataset/test/fake  
 ```bash
-$ python test.py --dataset dataset --test_set test --outf checkpoints/deepfakes --id 95  
+$ chmod +x run.sh
+$ ./run.sh
 ```
 ## Reference
 H. H. Nguyen, J. Yamagishi, and I. Echizen, “Capsule-Forensics: Using Capsule Networks to Detect Forged Images and Videos,” Proc. of the 2019 International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2019), 5 pages, (May 2019)  
