@@ -15,7 +15,9 @@ torchvision==0.4.0
 tqdm==4.51.0  
 
 ## Inference
-1.  
+There are two way to run test your image.  
+You can pick one of these two ways:    
+1.run bash file  
 ```bash
 $ chmod +x run.sh
 $ ./run.sh
